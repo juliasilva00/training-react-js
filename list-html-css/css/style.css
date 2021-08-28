@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-page {
+    /*vw, valor de largura referencia ao tamos da tela.*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00000012;
+}
+
+.product-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.product-item {
+    margin: 8px;
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid #0003;
+}
